@@ -15,6 +15,7 @@ public:
 	int Predict(Vector);
 	unsigned long Learn(Data*, int);
 	Vector getVector();
+	void setVector(Vector);
 	Line getLine();
 
 	void Reset();

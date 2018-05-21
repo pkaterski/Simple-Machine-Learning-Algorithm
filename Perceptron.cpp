@@ -19,6 +19,10 @@ Vector Perceptron::getVector() {
 	return this->w;
 }
 
+void Perceptron::setVector(Vector w) {
+	this->w = w;
+}
+
 Line Perceptron::getLine() {
 	double *w = this->w.getArray();
 
